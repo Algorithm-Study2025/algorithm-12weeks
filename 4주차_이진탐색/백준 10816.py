@@ -33,4 +33,4 @@ def upper_bound(key):
 for i in b:
   temp=upper_bound(i)-lower_bound(i)
   result.append(temp)
-print(*result)
+print(*result) #공백 구분 출력
